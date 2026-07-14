@@ -45,7 +45,7 @@ updateCountdown();
 setInterval(updateCountdown, 1000);
 
 // ── RSVP ─────────────────────────────────────────────────────────────────────
-const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyi61RbJIhjWLZh6g7MEXAnwGva67_pX0t_lUjztLapSiZJ9YU0p9dvUjLc8v_mDWARbA/exec"
+const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxkABuICKh9mXyQczJ_6trTajH0dPZa1Hv9GFdLYO1SB0AEdXDCEyk1MX68RJejNsAeKg/exec"
 const guestAsiste = document.getElementById('guestAsiste');
 if (guestAsiste) {
   guestAsiste.addEventListener('change', function () {
@@ -94,7 +94,7 @@ async function confirmarAsistencia() {
     const s = document.getElementById('rsvp-success');
     s.style.display = 'block';
     document.getElementById('rsvp-ok').textContent = asiste === 'Sí'
-      ? '¡Nos vemos en la boda, '    + nombre.split(' ')[0] + '!'
+      ? '¡Nos vemos en los XV, '    + nombre.split(' ')[0] + '!'
       : '¡Gracias por avisarnos, '   + nombre.split(' ')[0] + '!';
 
   } catch (err) {

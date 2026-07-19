@@ -289,3 +289,17 @@
   .gallery-grid .photo.tall { grid-row: auto; aspect-ratio: 3/4; }
   .gallery-grid .photo.full { grid-column: span 2; aspect-ratio: 4/3; }
 }
+
+.sobre-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: var(--gold);
+  margin-bottom: 1rem;
+}
+.regalo-o {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1rem;
+  color: var(--muted);
+}

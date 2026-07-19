@@ -23,7 +23,7 @@ function toggleMusic() {
 tryAutoplay();
 
 // ── Cuenta regresiva ─────────────────────────────────────────────────────────
-const weddingDate = new Date(2026, 6, 26, 19, 30, 0);
+const weddingDate = new Date(2026, 6, 26, 19, 0, 0);
 
 function updateCountdown() {
   const diff = weddingDate - new Date();
